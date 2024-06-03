@@ -1,0 +1,14 @@
+[versions]
+kotlin = "1.8.0"
+retrofit = "2.9.0"
+dagger = "2.40"
+lifecycle = "2.3.1"
+
+[libraries]
+retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit" }
+retrofitGson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
+lifecycleViewModel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycle" }
+lifecycleLiveData = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycle" }
+dagger = { group = "com.google.dagger", name = "dagger", version.ref = "dagger" }
+daggerCompiler = { group = "com.google.dagger", name = "dagger-compiler", version.ref = "dagger" }
+androidx-core-ktx = "androidx.core:core-ktx:1.10.0"

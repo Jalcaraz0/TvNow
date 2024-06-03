@@ -5,6 +5,7 @@ pluginManagement {
         gradlePluginPortal()
     }
 }
+
 dependencyResolutionManagement {
     repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
     repositories {
@@ -15,4 +16,7 @@ dependencyResolutionManagement {
 
 rootProject.name = "TVNow"
 include(":app")
- 
+include(":core")
+include(":feature_schedule")
+include(":feature_detail")
+include(":feature_search")
